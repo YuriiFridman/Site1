@@ -226,6 +226,10 @@ main{
 }
 
 /* Footer */
+
+footer{
+    margin-top: 20px;
+}
 .containerfooter{
     display: flex;
     justify-content: center;
@@ -236,9 +240,8 @@ main{
     background-color: #EAF1EB;
     max-width: 930px;
     border-radius: 15px;
-    height: 40px;
 
-    margin-top: 20px;
+    /*margin-top: 10px;*/
 }
 
 .foot{
