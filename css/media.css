@@ -1,4 +1,4 @@
-@media (min-width: 768px) {
+@media (max-width: 900px) {
     .nav-list {
         display: none;
     }
@@ -78,7 +78,7 @@
     }
 }
 
-@media (min-width: 320px) {
+@media (max-width: 500px) {
     .containerfooter {
         max-width: 550px;
     }
