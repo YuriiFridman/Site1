@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/login.css">
+    <meta charset="UTF-8">
+    <title>Grow Up | Реєстрація</title>
+
+</head>
+<body>
+<form action="action_page.php">
+    <div class="container">
+        <h1>Реєстрація</h1>
+        <p>Будь ласка, заповніть цю форму, щоб створити обліковий запис.</p>
+        <hr>
+
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Введіть Email" name="email" required>
+
+        <label for="psw"><b>Пароль</b></label>
+        <input type="password" placeholder="Введіть Пароль" name="psw" required>
+
+        <label for="psw-repeat"><b>Повторіть пароль</b></label>
+        <input type="password" placeholder="Повторіть Пароль" name="psw-repeat" required>
+        <hr>
+
+        <button type="submit" class="registerbtn">Реєстрація</button>
+        <button onclick="window.location.href='/index.html'" name="back" type="back" class="back">Назад</button>
+    </div>
+
+    <div class="container signin">
+        <p>Вже маєте аккаунт? <a href="#">Вхід</a>.</p>
+    </div>
+</form>
+</body>
+</html>

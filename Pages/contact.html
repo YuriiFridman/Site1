@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Форма</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="/css/index2.css">
+    <link rel="stylesheet" href="/css/contact.css">
+    <link rel="stylesheet" href="/css/media.css">
+
+
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <!--            Header nav-->
+        <div class="header-nav">
+            <a href="/index.html" class="logo"><img src="/images/Logo.png"></a>
+            <nav id="nav" class="nav">
+                <ul class="nav-list">
+                    <div class="search">
+                        <input type="text" class="searchTerm" placeholder="Що будемо шукати?">
+                        <button onclick="window.location.href='/index.html'" type="submit" class="searchButton">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+                    <div class="social">
+                        <li class="nav-item"><a href="https://www.instagram.com" class="nav-link"><img
+                                src="/images/instagramsvg.svg"></a></li>
+                        <li class="nav-item"><a href="https://wwww.facebook.com" class="nav-link"><img
+                                src="/images/facebooksvg.svg"></a></li>
+                    </div>
+                    <li class="nav-item"><a href="products.html" class="nav-link">ПРОДУКЦІЯ</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">ІНФОРМАЦІЯ</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link active">КОНТАКТИ</a></li>
+                    <li class="nav-item"><a href="login.html" class="nav-link">УВІЙТИ</a></li>
+                </ul>
+                <button id="nav-btn" class="nav-button">
+                    <img id="nav-btn-img" src="/images/hamburg.png" alt="Nav button">
+                </button>
+            </nav>
+
+        </div>
+    </div>
+</header>
+<!-- partial:index.partial.html -->
+<div class="container">
+    <form id="contact" action="" method="post">
+        <h3>
+            <center>Швидкий контакт</center>
+        </h3>
+        <h4>
+            <center>Зв’яжіться з нами сьогодні та отримайте відповідь протягом 24 годин!</center>
+        </h4>
+        <fieldset>
+            <input placeholder="Ваше імʼя" type="text" tabindex="1" required autofocus>
+        </fieldset>
+        <fieldset>
+            <input placeholder="Ваш email адрес" type="email" tabindex="2" required>
+        </fieldset>
+        <fieldset>
+            <input placeholder="Ваш номер телефону" type="tel" tabindex="3" required>
+        </fieldset>
+        <fieldset>
+            <input placeholder="Ваш веб сайт. Початок з: http://" type="url" tabindex="4" required>
+        </fieldset>
+        <fieldset>
+            <textarea placeholder="Введіть ваше повідомлення тут..." tabindex="5" required></textarea>
+        </fieldset>
+        <fieldset>
+            <button name="submit" type="submit" id="contact-submit" data-submit="Відправка...">Відправити</button>
+        </fieldset>
+        <fieldset>
+            <button onclick="window.location.href='/index.html'" name="back" type="back">Назад</button>
+        </fieldset>
+    </form>
+
+</div>
+<!-- partial -->
+<!-- Нижній блок -->
+<footer class="footer">
+    <div class="containerfooter">
+        <div class="foot">
+            <a href="/index.html" class="logo"><img src="/images/Logo.png"></a>
+            <li class="nav-item"><a href="https://www.instagram.com" class="nav-link"><img
+                    src="/images/instagramsvg.svg"></a></li>
+            <li class="nav-item"><a href="https://wwww.facebook.com" class="nav-link"><img
+                    src="/images/facebooksvg.svg"></a></li>
+            <li class="nav-item"><a href="./Pages/login.html" class="nav-link">УВІЙТИ</a></li>
+            <div class="dropdown">
+                <li class="nav-item">
+                    <button class="dropbtn"><a href="./Pages/products.html" class="nav-link">ДОПОМОГА</a></button>
+                </li>
+                <div class="dropdown-content">
+                    <a href="#">Посилання 1</a>
+                    <a href="#">Посилання 2</a>
+                    <a href="#">Посилання 3</a>
+                </div>
+            </div>
+            <address>+380950549813</address>
+        </div>
+    </div>
+</footer>
+<div class="back-to-top-wrapper">
+    <a href="#top" class="back-to-top-link" aria-label="Scroll to Top">🔝</a>
+</div>
+<script src="/js/main.js"></script>
+</body>
+</html>
