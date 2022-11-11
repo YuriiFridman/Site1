@@ -91,6 +91,7 @@
     }
 
     .info{
+        margin-left: 60px;
         justify-content: flex-end;
     }
 
