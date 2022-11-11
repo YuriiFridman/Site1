@@ -84,9 +84,12 @@
 
 }
 .product-card{
+    display: flex;
     width: 30%;
     min-width: 318px;
     margin-top: 10px;
     margin-left: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
 
 }
