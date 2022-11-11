@@ -4,6 +4,7 @@
     }
     .nav-button{
         display: block;
+
     }
 
 
@@ -35,10 +36,8 @@
     }
 
     .nav-button{
-        position: static;
         z-index: 9;
-        justify-content: right;
-        margin-bottom: 10px;
+        margin-left: 120px;
     }
 
     .header-nav{
@@ -76,10 +75,8 @@
 }
 
 @media (max-width: 990px){
-    *{
-        max-width: 990px;
-    }
-    .containerfooter{
+    .containerfooter {
         max-width: 550px;
     }
+
 }

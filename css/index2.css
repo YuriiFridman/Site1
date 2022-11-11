@@ -41,6 +41,7 @@ li, ul{
     height: 21px;
     width: 97px;
     margin-bottom: 15px;
+    /*left:0px;*/
 }
 
 /* Nav */
@@ -53,7 +54,6 @@ li, ul{
 }
 
 .nav-button{
-    position: fixed;
     display: none;
     border: none;
     background-color: unset;
