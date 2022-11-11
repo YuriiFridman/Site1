@@ -65,6 +65,10 @@
         flex-wrap: wrap;
         justify-content: center;
     }
+
+    .foot{
+        flex-wrap: wrap
+    }
 }
 
 @media screen and (prefers-reduced-motion: no-preference) {
