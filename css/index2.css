@@ -1,5 +1,16 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+:root{
+    --white: white;
+    --black: #000000;
+    --active: #606060;
+    --green: green;
+    --blue: #254568;
 
+
+
+
+
+}
 body {
     color: #000000;
     font-family: 'Montserrat', serif;
@@ -196,10 +207,10 @@ main {
 }
 
 .buy1 {
-    background-color: green;
+    background-color: var(--green);
     margin-right: 20px;
     border: none;
-    color: white;
+    color: var(--white);
     padding: 10px;
     text-align: center;
     text-decoration: none;
@@ -214,8 +225,8 @@ main {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    background-color: white;
-    color: green;
+    background-color: var(--white);
+    color: var(--green);
     border-radius: 12px;
     margin-bottom: 20px;
 }
@@ -244,7 +255,7 @@ main {
     height: 3rem;
     border-radius: 50%;
     padding: 0.25rem;
-    border: 1px solid #254568;
+    border: 1px solid var(--blue);
     background-color: #d6e3f0;
     -webkit-transition: -webkit-transform 80ms ease-in;
     transition: -webkit-transform 80ms ease-in;
@@ -291,9 +302,6 @@ footer {
 
 /* Dropdown Button */
 .dropbtn {
-    /*color: white;*/
-    /*padding: 16px;*/
-    /*font-size: 14px;*/
     border: none;
     background-color: unset;
 }
