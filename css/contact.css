@@ -133,3 +133,9 @@ fieldset {
 .nav-button{
     background-color: unset;
 }
+
+.containercontact{
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}

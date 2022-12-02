@@ -1,15 +1,9 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 :root{
     --white: white;
     --black: #000000;
     --active: #606060;
     --green: green;
     --blue: #254568;
-
-
-
-
-
 }
 body {
     color: #000000;
